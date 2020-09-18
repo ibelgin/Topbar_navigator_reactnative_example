@@ -1,8 +1,17 @@
-# TopBarNavigator_ReactNative
-This Is A Example For Top Bar Navigator In React native 
+# Top Bar Navigator In React Native
 
-Modules Used 
- 
+This App Was made using React native. 
+
+### Installing
+
+> Clone This Repo To Your PC 
+
+> Run npm install
+
+> Run The App
+
+## Built With
+
      @react-navigation/native
      react-native-reanimated 
      react-native-gesture-handler 
@@ -12,8 +21,18 @@ Modules Used
      @react-navigation/material-top-tabs
      react-native-tab-view
 
+## Check Out My Youtube Channel
 
-For Video Tutorial https://youtu.be/FBvb1VFTu9k
+[Youtube Channel - Belgin Android](https://youtu.be/FBvb1VFTu9k)
 
-For Blogger :- https://beldigitlabs.blogspot.com/2020/04/topbarnavigator-like-whatsapp-in-react.html
+## Authors
+
+* **Belgin Android** - *All Works* - [Belgin Android](https://github.com/Belgin-Android)
+
+## Acknowledgments
+
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
+
 
