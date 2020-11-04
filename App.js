@@ -2,8 +2,6 @@ import React from "react";
 import {createMaterialTopTabNavigator} from "@react-navigation/material-top-tabs"
 import { NavigationContainer } from "@react-navigation/native";
 
-//Importing Screens
-
 import ChatScreen from "./screens/ChatScreen";
 import CallScreen from "./screens/CallScreen";
 import StatusScreen from "./screens/StatusScreen";
@@ -12,6 +10,7 @@ const Tab= createMaterialTopTabNavigator();
 
 export default function App(){
   return(
+
     <NavigationContainer>
       <Tab.Navigator
       initialRouteName="Chats"
