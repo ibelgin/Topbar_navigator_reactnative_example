@@ -10,7 +10,6 @@ const Tab= createMaterialTopTabNavigator();
 
 export default function App(){
   return(
-
     <NavigationContainer>
       <Tab.Navigator
       initialRouteName="Chats"
@@ -18,19 +17,20 @@ export default function App(){
       indicatorStyle:{backgroundColor:"#FFF"},
       style:{backgroundColor:"#108786"}
       }}>
+        <Tab.Screen
+          name="Chats"
+          component={ChatScreen}
+        />
 
         <Tab.Screen
-        name="Chats"
-        component={ChatScreen}/>
+          name="Status"
+          component={StatusScreen}
+        />
 
         <Tab.Screen
-        name="Status"
-        component={StatusScreen}/>
-
-        <Tab.Screen
-        name="Calls"
-        component={CallScreen}/>
-
+          name="Calls"
+          component={CallScreen}
+        />
       </Tab.Navigator>
     </NavigationContainer>
   )
