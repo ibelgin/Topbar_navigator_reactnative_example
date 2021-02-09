@@ -1,7 +1,6 @@
 import React from "react";
 import {createMaterialTopTabNavigator} from "@react-navigation/material-top-tabs"
 import { NavigationContainer } from "@react-navigation/native";
-
 import ChatScreen from "./screens/ChatScreen";
 import CallScreen from "./screens/CallScreen";
 import StatusScreen from "./screens/StatusScreen";
